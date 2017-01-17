@@ -1,4 +1,4 @@
-# finalprojectGACD - Final project Getting and Cleaning Data (Coursera Data Science course)
+# Final project Getting and Cleaning Data (Coursera Data Science course)
 Final project for the Coursera course Getting and Cleaning Data. It uses the data from the Human Activity Recognition Using Smartphones Data Set [1]. It contains the following elements:
 
 1. An R script called 'run_analysis.R' that does the following: it merges the train and test data sets in one single data set, it extracts measurements of the mean and SD for each measurement, it assigns new labels to the activities in the data sets.
