@@ -10,9 +10,11 @@ The script `run_analysis.R` performs the five steps described in the guidelines 
 
 # Variables
 
-* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
-* `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
-* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in `mean_and_std_features`, a numeric vector used to extract the desired data.
+The script `run_analysis.R` contains the following variables:
+
+* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data read in from the downloaded files.
+* `x_data`, `y_data` and `subject_data` are the data sets resulting from merging the previously mentioned sets.
+* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in `mean_sd_feat`, a numeric vector.
 * A similar approach is taken with activity names through the `activities` variable.
 * `all_data` merges `x_data`, `y_data` and `subject_data` in a big dataset.
-* Finally, `averages_data` contains the relevant averages which will be later stored in a `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()` and ease the development.
+* Finally, `averages_data` contains the averages later stored in the output `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()`.
