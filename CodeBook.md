@@ -36,7 +36,7 @@ The clean data set `averages_data.txt` contains the following variables: `subjec
 * `fBodyGyro-XYZ`
 * `fBodyAccMag`
 * `fBodyAccJerkMag`
-* `fBodyGyroMag
+* `fBodyGyroMag`
 * `fBodyGyroJerkMag`
 
-`The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals and different derivations of these. More information can be found in the documentation of the project (see [1] in `README.md`).
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals and different derivations of these. More information can be found in the documentation of the project (see [1] in `README.md`).
