@@ -19,24 +19,24 @@ The script `run_analysis.R` contains the following values:
 * `all_data` merges `x_data`, `y_data` and `subject_data` in a big dataset.
 * Finally, `averages_data` contains the averages later stored in the output `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()`.
 
-The clean data set 'averages_data.txt' contains the following variables: 'subject', 'activity' and the mean and standard deviation of the following dimensional variables:
+The clean data set `averages_data.txt` contains the following variables: `subject`, `activity` and the mean and standard deviation of the following dimensional variables:
 
-* tBodyAcc-XYZ
-* tGravityAcc-XYZ
-* tBodyAccJerk-XYZ
-* tBodyGyro-XYZ
-* tBodyGyroJerk-XYZ
-* tBodyAccMag
-* tGravityAccMag
-* tBodyAccJerkMag
-* tBodyGyroMag
-* tBodyGyroJerkMag
-* fBodyAcc-XYZ
-* fBodyAccJerk-XYZ
-* fBodyGyro-XYZ
-* fBodyAccMag
-* fBodyAccJerkMag
-* fBodyGyroMag
-* fBodyGyroJerkMag
+* `tBodyAcc-XYZ`
+* `tGravityAcc-XYZ`
+* `tBodyAccJerk-XYZ`
+* `tBodyGyro-XYZ`
+* `tBodyGyroJerk-XYZ`
+* `tBodyAccMag`
+* `tGravityAccMag`
+* `tBodyAccJerkMag`
+* `tBodyGyroMag`
+* `tBodyGyroJerkMag`
+* `fBodyAcc-XYZ`
+* `fBodyAccJerk-XYZ`
+* `fBodyGyro-XYZ`
+* `fBodyAccMag`
+* `fBodyAccJerkMag`
+* `fBodyGyroMag
+* `fBodyGyroJerkMag`
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals and different derivations of these. More information can be found in the documentation of the project (see [1] in README.md).
+`The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals and different derivations of these. More information can be found in the documentation of the project (see [1] in `README.md`).
