@@ -10,7 +10,7 @@ The script `run_analysis.R` performs the five steps described in the guidelines 
 
 # Variables
 
-The script `run_analysis.R` contains the following variables:
+The script `run_analysis.R` contains the following values:
 
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data read in from the downloaded files.
 * `x_data`, `y_data` and `subject_data` are the data sets resulting from merging the previously mentioned sets.
@@ -18,3 +18,25 @@ The script `run_analysis.R` contains the following variables:
 * A similar approach is taken with activity names through the `activities` variable.
 * `all_data` merges `x_data`, `y_data` and `subject_data` in a big dataset.
 * Finally, `averages_data` contains the averages later stored in the output `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()`.
+
+The clean data set 'averages_data.txt' contains the following variables: 'subject', 'activity' and the mean and standard deviation of the following dimensional variables:
+
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals and different derivations of these. More information can be found in the documentation of the project (see [1] in README.md).
